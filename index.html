@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mumbai Indians — Official Fan Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <div class="crest">MI</div>
+    Mumbai Indians
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#players">Squad</a></li>
+    <li><a href="#stats">Stats</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#engage">Fan Zone</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#engage" class="nav-cta">🔥 Join Fan Club</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+ 
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-circle"></div>
+  <div class="hero-ring"></div>
+  <div class="hero-ring-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Official Fan Hub · IPL 2025</div>
+    <h1>Mumbai<span>Indians</span></h1>
+    <p class="hero-tagline">One Family. One Heartbeat. Five Stars.</p>
+    <div class="hero-stats">
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">5</div>
+        <div class="hero-stat-label">IPL Titles</div>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">2013</div>
+        <div class="hero-stat-label">First Title</div>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">289</div>
+        <div class="hero-stat-label">Matches Played</div>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">163</div>
+        <div class="hero-stat-label">Wins</div>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#schedule" class="btn-primary">Match Schedule</a>
+      <a href="#players" class="btn-outline">View Squad</a>
+    </div>
+  </div>
+</section>
+ 
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-label">LIVE UPDATES</div>
+  <div style="flex:1; overflow:hidden;">
+    <div class="ticker-inner">
+      <span class="ticker-item">MI vs CSK — April 5 · Wankhede Stadium · 7:30 PM IST</span>
+      <span class="ticker-item">Rohit Sharma hits 50th IPL fifty in last game</span>
+      <span class="ticker-item">Jasprit Bumrah named Player of the Match</span>
+      <span class="ticker-item">MI top the Orange Cap standings with 18 wickets</span>
+      <span class="ticker-item">Wankhede sold out for next 3 home games</span>
+      <span class="ticker-item">Mumbai Indians win toss, opt to bat first</span>
+      <span class="ticker-item">MI vs CSK — April 5 · Wankhede Stadium · 7:30 PM IST</span>
+      <span class="ticker-item">Rohit Sharma hits 50th IPL fifty in last game</span>
+      <span class="ticker-item">Jasprit Bumrah named Player of the Match</span>
+      <span class="ticker-item">MI top the Orange Cap standings with 18 wickets</span>
+      <span class="ticker-item">Wankhede sold out for next 3 home games</span>
+      <span class="ticker-item">Mumbai Indians win toss, opt to bat first</span>
+    </div>
+  </div>
+</div>
+ 
+<!-- SCHEDULE -->
+<section id="schedule">
+  <div class="section-label">IPL 2025 Season</div>
+  <h2 class="section-title">Match <em>Schedule</em></h2>
+  <p class="section-subtitle">Follow every game of the season — past results, live scores, and upcoming fixtures.</p>
+ 
+  <div class="schedule-grid">
+ 
+    <!-- LIVE -->
+    <div class="match-card live">
+      <div class="match-meta">
+        <div class="match-date">Mar 30 · Live</div>
+        <div class="match-venue">Wankhede Stadium, Mumbai</div>
+      </div>
+      <div class="match-teams">
+        <div class="team-block">
+          <div class="team-logo logo-mi">MI</div>
+          <div class="team-name-block">
+            <div class="team-name">Mumbai Indians</div>
+            <div class="team-record">168/6 (18.3)</div>
+          </div>
+        </div>
+        <div class="vs-badge">VS</div>
+        <div class="team-block">
+          <div class="team-logo logo-rcb">RCB</div>
+          <div class="team-name-block">
+            <div class="team-name">Royal Challengers</div>
+            <div class="team-record">142/4 (16.0)</div>
+          </div>
+        </div>
+      </div>
+      <div class="match-action">
+        <div><div class="live-pill"><div class="live-dot"></div>LIVE</div></div>
+        <div class="match-score">MI need 26 off 9 balls</div>
+        <a href="#" class="btn-sm">Watch Live</a>
+      </div>
+    </div>
+ 
+    <!-- UPCOMING -->
+    <div class="match-card">
+      <div class="match-meta">
+        <div class="match-date">Apr 5, 2025</div>
+        <div class="match-venue">Wankhede Stadium, Mumbai</div>
+      </div>
+      <div class="match-teams">
+        <div class="team-block">
+          <div class="team-logo logo-mi">MI</div>
+          <div class="team-name-block">
+            <div class="team-name">Mumbai Indians</div>
+            <div class="team-record">3W · 1L</div>
+          </div>
+        </div>
+        <div class="vs-badge">VS</div>
+        <div class="team-block">
+          <div class="team-logo logo-csk">CSK</div>
+          <div class="team-name-block">
+            <div class="team-name">Chennai Super Kings</div>
+            <div class="team-record">2W · 2L</div>
+          </div>
+        </div>
+      </div>
+      <div class="match-action">
+        <a href="#" class="btn-sm">Get Tickets</a>
+      </div>
+    </div>
+ 
+    <div class="match-card">
+      <div class="match-meta">
+        <div class="match-date">Apr 10, 2025</div>
+        <div class="match-venue">Eden Gardens, Kolkata</div>
+      </div>
+      <div class="match-teams">
+        <div class="team-block">
+          <div class="team-logo logo-kkr">KKR</div>
+          <div class="team-name-block">
+            <div class="team-name">Kolkata Knight Riders</div>
+            <div class="team-record">3W · 1L</div>
+          </div>
+        </div>
+        <div class="vs-badge">VS</div>
+        <div class="team-block">
+          <div class="team-logo logo-mi">MI</div>
+          <div class="team-name-block">
+            <div class="team-name">Mumbai Indians</div>
+            <div class="team-record">3W · 1L</div>
+          </div>
+        </div>
+      </div>
+      <div class="match-action">
+        <a href="#" class="btn-sm">Remind Me</a>
+      </div>
+    </div>
+ 
+    <div class="match-card">
+      <div class="match-meta">
+        <div class="match-date">Apr 16, 2025</div>
+        <div class="match-venue">Wankhede Stadium, Mumbai</div>
+      </div>
+      <div class="match-teams">
+        <div class="team-block">
+          <div class="team-logo logo-mi">MI</div>
+          <div class="team-name-block">
+            <div class="team-name">Mumbai Indians</div>
+          </div>
+        </div>
+        <div class="vs-badge">VS</div>
+        <div class="team-block">
+          <div class="team-logo logo-srh">SRH</div>
+          <div class="team-name-block">
+            <div class="team-name">Sunrisers Hyderabad</div>
+          </div>
+        </div>
+      </div>
+      <div class="match-action">
+        <a href="#" class="btn-sm">Get Tickets</a>
+      </div>
+    </div>
+ 
+    <div class="match-card">
+      <div class="match-meta">
+        <div class="match-date">Apr 22, 2025</div>
+        <div class="match-venue">Feroz Shah Kotla, Delhi</div>
+      </div>
+      <div class="match-teams">
+        <div class="team-block">
+          <div class="team-logo logo-dc">DC</div>
+          <div class="team-name-block">
+            <div class="team-name">Delhi Capitals</div>
+          </div>
+        </div>
+        <div class="vs-badge">VS</div>
+        <div class="team-block">
+          <div class="team-logo logo-mi">MI</div>
+          <div class="team-name-block">
+            <div class="team-name">Mumbai Indians</div>
+          </div>
+        </div>
+      </div>
+      <div class="match-action">
+        <a href="#" class="btn-sm">Remind Me</a>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+ 
+<!-- PLAYERS -->
+<section id="players">
+  <div class="section-label">IPL 2025 Squad</div>
+  <h2 class="section-title">The <em>Blue Army</em></h2>
+  <p class="section-subtitle">Meet the warriors who wear the blue and gold. Click any player to explore their profile.</p>
+ 
+  <div class="players-filter">
+    <button class="filter-btn active" onclick="filterPlayers('all', this)">All Players</button>
+    <button class="filter-btn" onclick="filterPlayers('bat', this)">Batters</button>
+    <button class="filter-btn" onclick="filterPlayers('bowl', this)">Bowlers</button>
+    <button class="filter-btn" onclick="filterPlayers('ar', this)">All-Rounders</button>
+    <button class="filter-btn" onclick="filterPlayers('wk', this)">Wicket-Keepers</button>
+  </div>
+ 
+  <div class="players-grid" id="playersGrid"></div>
+</section>
+ 
+<!-- STATS -->
+<section id="stats">
+  <div class="section-label">Team Records</div>
+  <h2 class="section-title">By The <em>Numbers</em></h2>
+  <p class="section-subtitle">A legacy forged in statistics — the most successful franchise in IPL history.</p>
+ 
+  <div class="stats-big-grid">
+    <div class="big-stat">
+      <div class="big-stat-num">5</div>
+      <div class="big-stat-label">IPL Championships</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">163</div>
+      <div class="big-stat-label">Total Wins</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">56.3</div>
+      <div class="big-stat-label">Win % All Time</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">235</div>
+      <div class="big-stat-label">Highest Score</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">289</div>
+      <div class="big-stat-label">Matches Played</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">4,832</div>
+      <div class="big-stat-label">Sixes Hit</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">₹990Cr</div>
+      <div class="big-stat-label">Squad Value (2025)</div>
+    </div>
+    <div class="big-stat">
+      <div class="big-stat-num">9</div>
+      <div class="big-stat-label">Playoff Appearances</div>
+    </div>
+  </div>
+ 
+  <h3 style="font-family:var(--font-display);font-size:1.1rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Season-by-Season Record</h3>
+  <table class="season-table">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Matches</th>
+        <th>Won</th>
+        <th>Lost</th>
+        <th>Win %</th>
+        <th>Form</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2024</td><td>14</td>
+        <td class="result-w">7</td>
+        <td class="result-l">7</td>
+        <td>50%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div></div></td>
+        <td>Eliminated (9th)</td>
+      </tr>
+      <tr>
+        <td>2023</td><td>14</td>
+        <td class="result-w">9</td>
+        <td class="result-l">5</td>
+        <td>64%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div></div></td>
+        <td>Qualifier 2</td>
+      </tr>
+      <tr>
+        <td>2022</td><td>14</td>
+        <td class="result-w">4</td>
+        <td class="result-l">10</td>
+        <td>29%</td>
+        <td><div class="result-bar"><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div></div></td>
+        <td>Eliminated (10th)</td>
+      </tr>
+      <tr>
+        <td>2020</td><td>15</td>
+        <td class="result-w">9</td>
+        <td class="result-l">5</td>
+        <td>64%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div></div></td>
+        <td class="trophy-cell">🏆 Champions</td>
+      </tr>
+      <tr>
+        <td>2019</td><td>16</td>
+        <td class="result-w">11</td>
+        <td class="result-l">5</td>
+        <td>69%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div></div></td>
+        <td class="trophy-cell">🏆 Champions</td>
+      </tr>
+      <tr>
+        <td>2017</td><td>16</td>
+        <td class="result-w">10</td>
+        <td class="result-l">6</td>
+        <td>63%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div></div></td>
+        <td class="trophy-cell">🏆 Champions</td>
+      </tr>
+      <tr>
+        <td>2015</td><td>16</td>
+        <td class="result-w">10</td>
+        <td class="result-l">6</td>
+        <td>63%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div></div></td>
+        <td class="trophy-cell">🏆 Champions</td>
+      </tr>
+      <tr>
+        <td>2013</td><td>16</td>
+        <td class="result-w">11</td>
+        <td class="result-l">5</td>
+        <td>69%</td>
+        <td><div class="result-bar"><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-w" style="width:20px"></div><div class="rbar rbar-l" style="width:20px"></div></div></td>
+        <td class="trophy-cell">🏆 Champions</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+ 
+ 
+ 
+<!-- NEWS -->
+<section id="news">
+  <div class="section-label">Latest Updates</div>
+  <h2 class="section-title">News & <em>Highlights</em></h2>
+  <p class="section-subtitle">Stay up to date with everything happening in and around the Mumbai Indians camp.</p>
+ 
+  <!-- NEWS FILTER TABS -->
+  <div style="display:flex;gap:8px;margin-bottom:2rem;flex-wrap:wrap;">
+    <button class="filter-btn active" onclick="filterNews('all',this)">All</button>
+    <button class="filter-btn" onclick="filterNews('match',this)">Match Reports</button>
+    <button class="filter-btn" onclick="filterNews('player',this)">Player Features</button>
+    <button class="filter-btn" onclick="filterNews('team',this)">Team News</button>
+    <button class="filter-btn" onclick="filterNews('analysis',this)">Analysis</button>
+    <button class="filter-btn" onclick="filterNews('auction',this)">Auction & Transfer</button>
+  </div>
+ 
+  <!-- FEATURED ROW -->
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:1.5rem;margin-bottom:1.5rem;" id="newsFeaturedRow">
+    <a href="#" class="news-card featured" data-cat="match">
+      <div class="news-img" style="background:url('https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_800,q_50/lsci/db/PICTURES/CMS/398200/398283.4.jpg') center/cover no-repeat;height:390px;">
+        <div class="news-category">Match Report</div>
+      </div>
+      <div class="news-body">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+          <span style="background:#004BA0;color:#fff;font-family:var(--font-display);font-size:0.65rem;letter-spacing:0.1em;padding:2px 8px;border-radius:2px;">LATEST</span>
+          <span class="news-date">March 29, 2025</span>
+        </div>
+        <div class="news-title" style="font-size:1.35rem;">Rohit Sharma's blazing 87* powers MI to a thumping 8-wicket win over Gujarat Titans</div>
+        <div class="news-excerpt">A masterclass in T20 batsmanship from the Hitman. Rohit smashed 6 fours and 5 sixes off just 54 balls to single-handedly dismantle the Gujarat Titans bowling attack at a packed Wankhede Stadium. He shared a 148-run opening stand with Ishan Kishan that put the chase to bed by the 17th over. Mumbai Indians now sit atop the IPL 2025 table with four wins from five games.</div>
+        <div style="display:flex;align-items:center;gap:1rem;margin-top:1rem;padding-top:1rem;border-top:1px solid var(--gray-light);">
+          <span style="font-size:0.78rem;color:var(--gray);">By Sanjay Mehta </span>
+          <span style="margin-left:auto;font-family:var(--font-display);font-size:0.72rem;letter-spacing:0.08em;color:var(--blue);text-transform:uppercase;"></span>
+        </div>
+      </div>
+    </a>
+    <div style="display:flex;flex-direction:column;gap:1rem;">
+      <a href="#" class="news-card" data-cat="player" style="flex:1;">
+        <div class="news-img" style="background:url('https://im.rediff.com/cricket/2025/apr/27bumrah1.jpg?w=450&h=450') center/cover no-repeat;height:190px;">
+          <div class="news-category">Player Feature</div>
+        </div>
+        <div class="news-body">
+          <div class="news-date">March 27, 2025</div>
+          <div class="news-title">Bumrah's 4/14: Breaking down IPL 2025's most unplayable spell</div>
+          <div class="news-excerpt">How reverse swing, slower balls and two perfect yorkers dismantled a set batting lineup in just 24 deliveries.</div>
+        </div>
+      </a>
+      <a href="#" class="news-card" data-cat="team" style="flex:1;">
+        <div class="news-img" style="background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLIAlCJhqE0Jc5P3MMbZhVSNuKwZMNHTSgQ&s') center/cover no-repeat;height:290px;">
+          <div class="news-category">Team News</div>
+        </div>
+        <div class="news-body">
+          <div class="news-date">March 25, 2025</div>
+          <div class="news-title">SKY named MI vice-captain — Hardik & Surya to co-lead in 2025</div>
+        </div>
+      </a>
+    </div>
+  </div>
+ 
+  <!-- SECONDARY GRID -->
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:1.5rem;" id="newsSecondaryGrid">
+    <a href="#" class="news-card" data-cat="analysis">
+      <div class="news-img" style="background:url('https://img.ipl.com/upload/20250308/9015233c3f39c159943d072a4d69a4b9.png') center/cover no-repeat;height: 380px;">
+        <div class="news-category">Analysis</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">March 23, 2025</div>
+        <div class="news-title">IPL 2025 Power Rankings: MI jump to 2nd after dominant week</div>
+        <div class="news-excerpt">Number crunching reveals why Mumbai Indians are the team to beat after a stunning run of form — despite an inconsistent middle order.</div>
+      </div>
+    </a>
+    <a href="#" class="news-card" data-cat="auction">
+      <div class="news-img" style="background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_LUOSx1Frd2lpE2OL3qFb4-UafqVTbizJw&s') center/cover no-repeat;height: 380px;">
+        <div class="news-category">Auction</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">March 20, 2025</div>
+        <div class="news-title">How MI's ₹990 crore squad was built: The full IPL 2025 auction breakdown</div>
+        <div class="news-excerpt">From Rohit's retention to Coetzee's surprise buy — every MI decision at the mega auction dissected and graded.</div>
+      </div>
+    </a>
+    <a href="#" class="news-card" data-cat="player">
+      <div class="news-img" style="background:url('https://imgs.search.brave.com/E4V5vLDxzbMs3pfWCdWOdrKO8Hr207qm3olwZNPA-r4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE0/OTgzOTQyMi9waG90/by9tdW1iYWktaW5k/aWFucy10aWxhay12/YXJtYS1wbGF5cy1h/LXNob3QtZHVyaW5n/LXRoZS1pbmRpYW4t/cHJlbWllci1sZWFn/dWUtdHdlbnR5MjAt/Y3JpY2tldC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9d1FI/bV84QVR2ZzhVcExt/aGtJU3FqZEpOOVRU/VUZ6ejNVX0FQbGl4/cXIzcz0') center/cover no-repeat;height: 380px;"></div>
+        <div class="news-category">Player Feature</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">March 18, 2025</div>
+        <div class="news-title">Tilak Varma at 22: How Mumbai shaped cricket's most complete young batter</div>
+        <div class="news-excerpt">From Hyderabad nets to Wankhede roars — the untold story of Tilak's journey to becoming MI's most important middle-order bat.</div>
+      </div>
+    </a>
+    <a href="#" class="news-card" data-cat="match">
+      <div class="news-img" style="background:url('https://crickettimes.com/wp-content/uploads/2024/05/Kolkata-Knight-Riders-vs-Mumbai-Indians.webp') center/cover no-repeat;height: 380px;"></div>
+        <div class="news-category">Match Preview</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">March 31, 2025</div>
+        <div class="news-title">MI face KKR in Kolkata: Conditions, strategy, and XI talk</div>
+        <div class="news-excerpt">The ultimate preview of MI’s biggest away test of the season, focusing on their bat-bowl balance, bowling combinations, and powerplay game plan.</div>
+      </div>
+    </a>
+    <a href="#" class="news-card" data-cat="team">
+      <div class="news-img" style="background:url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202602/suryakumar-yadav-03341831-16x9_0.ejwsbtz8ugdxpb7ol5b8sbybaffi93x9lhbhrvwfles?VersionId=Y1ArdQFrCLEyCH3teYH4YIMJHvdpF7gX') center/cover no-repeat;height: 380px;"></div>
+        <div class="news-category">Team News</div>
+      </div>
+      <div class="news-body">
+        <div class="news-date">March 26, 2025</div>
+        <div class="news-title">Openers rest day update: SKY remains available for next game</div>
+        <div class="news-excerpt">Coach confirms batting lineup despite concussions concerns, and team physio reports full fitness progress for top order.</div>
+      </div>
+    </a>
+  </div>
+ 
+  <!-- HORIZONTAL NEWS STRIP -->
+  <div style="display:flex;flex-direction:column;gap:0;border:1px solid var(--gray-light);border-radius:8px;overflow:hidden;" id="newsStrip">
+    <div style="background:var(--blue-deep);padding:0.6rem 1.2rem;font-family:var(--font-display);font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);">More Headlines</div>
+ 
+    <a href="https://www.mumbaiindians.com/news/ipl-2023-the-records-made-and-broken-by-mumbai-indians" target="_blank" rel="noopener noreferrer" class="news-strip-item" data-cat="team" style="display:flex;align-items:center;gap:1.2rem;padding:1rem 1.2rem;border-bottom:1px solid var(--gray-light);text-decoration:none;color:inherit;transition:background 0.2s;" onmouseover="this.style.background='#f5f4f0'" onmouseout="this.style.background=''">
+      <div style="width:52px;height:52px;background:linear-gradient(135deg,#E63946,#8B0000);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">📈</div>
+      <div style="flex:1;">
+        <div style="font-family:var(--font-display);font-size:0.95rem;font-weight:600;color:var(--blue-deep);margin-bottom:2px;">The Wankhede Fortress: Why MI have lost just 4 home games in the last 3 seasons</div>
+        <div style="font-size:0.75rem;color:var(--gray);">March 14, 2025 · Deep Dive</div>
+      </div>
+      <span style="font-size:0.8rem;color:var(--blue);font-family:var(--font-display);letter-spacing:0.06em;white-space:nowrap;">Read →</span>
+    </a>
+ 
+    <a href="https://sports.ndtv.com/ipl-2025/mumbai-indians-unveil-jersey-ahead-of-ipl-2025-retain-iconic-blue-and-gold-palette-7760903" target="_blank" rel="noopener noreferrer" class="news-strip-item" data-cat="team" style="display:flex;align-items:center;gap:1.2rem;padding:1rem 1.2rem;border-bottom:1px solid var(--gray-light);text-decoration:none;color:inherit;transition:background 0.2s;" onmouseover="this.style.background='#f5f4f0'" onmouseout="this.style.background=''">
+      <div style="width:52px;height:52px;background:linear-gradient(135deg,#D4AF37,#8B6914);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">👕</div>
+      <div style="flex:1;">
+        <div style="font-family:var(--font-display);font-size:0.95rem;font-weight:600;color:var(--blue-deep);margin-bottom:2px;">MI unveil new gold-accented away jersey for IPL 2025 — fans react</div>
+        <div style="font-size:0.75rem;color:var(--gray);">March 12, 2025 · Sports ndTV Exclusive</div>
+      </div>
+      <span style="font-size:0.8rem;color:var(--blue);font-family:var(--font-display);letter-spacing:0.06em;white-space:nowrap;">Read →</span>
+    </a>
+ 
+    <a href="https://www.cricbuzz.com/news/" target="_blank" rel="noopener noreferrer" class="news-strip-item" data-cat="player" style="display:flex;align-items:center;gap:1.2rem;padding:1rem 1.2rem;border-bottom:1px solid var(--gray-light);text-decoration:none;color:inherit;transition:background 0.2s;" onmouseover="this.style.background='#f5f4f0'" onmouseout="this.style.background=''">
+      <div style="width:52px;height:52px;background:linear-gradient(135deg,#3A225D,#001A40);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🧤</div>
+      <div style="flex:1;">
+        <div style="font-family:var(--font-display);font-size:0.95rem;font-weight:600;color:var(--blue-deep);margin-bottom:2px;">Zaheer khan Urges Hardik Pandya to Ignore Criticism, Focus on Performances</div>
+        <div style="font-size:0.75rem;color:var(--gray);">March 10, 2025 · Player Feature</div>
+      </div>
+      <span style="font-size:0.8rem;color:var(--blue);font-family:var(--font-display);letter-spacing:0.06em;white-space:nowrap;">Read →</span>
+    </a>
+ 
+    <a href="https://www.indiatoday.in/sports/story/gerald-coetzee-at-steal-price-gt-buy-to-add-to-scary-fast-bowling-attack-in-auction-2639768-2024-11-25" target="_blank" rel="noopener noreferrer" class="news-strip-item" data-cat="auction" style="display:flex;align-items:center;gap:1.2rem;padding:1rem 1.2rem;border-bottom:1px solid var(--gray-light);text-decoration:none;color:inherit;transition:background 0.2s;" onmouseover="this.style.background='#f5f4f0'" onmouseout="this.style.background=''">
+      <div style="width:52px;height:52px;background:linear-gradient(135deg,#533EB0,#3A225D);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🔨</div>
+      <div style="flex:1;">
+        <div style="font-family:var(--font-display);font-size:0.95rem;font-weight:600;color:var(--blue-deep);margin-bottom:2px;">Gerald Coetzee's ₹17.50 crore price tag is already looking like a steal — here's why</div>
+        <div style="font-size:0.75rem;color:var(--gray);">March 8, 2025 · Transfer Analysis</div>
+      </div>
+      <span style="font-size:0.8rem;color:var(--blue);font-family:var(--font-display);letter-spacing:0.06em;white-space:nowrap;">Read →</span>
+    </a>
+ 
+  <!-- VIDEO HIGHLIGHTS -->
+  <div style="margin-top:2.5rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.2rem;">
+      <h3 style="font-family:var(--font-display);font-size:1.1rem;font-weight:600;color:var(--blue-deep);text-transform:uppercase;letter-spacing:0.06em;">🎬 Video Highlights</h3>
+      <a href="#" style="font-family:var(--font-display);font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--blue);text-decoration:none;">View All Videos →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;">
+      <a href="https://www.hotstar.com/in/sports/cricket/rohits-81-vs-gt-in-eliminator/1271422053/watch#w-DialogWidgetder:1px solid var(--gray-light);text-decoration:none;color:inherit;" onmouseover="this.querySelector('.vplay').style.transform='scale(1.15)'" onmouseout="this.querySelector('.vplay').style.transform='scale(1)'">
+        <div style="background:linear-gradient(135deg,#001A40,#004BA0);height:110px;display:flex;align-items:center;justify-content:center;position:relative;">
+          <div class="vplay" style="width:44px;height:44px;background:rgba(212,175,55,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:transform 0.25s;">▶</div>
+          <div style="position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,0.6);color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:2px;">4:12</div>
+        </div>
+        <div style="padding:0.75rem;"><div style="font-family:var(--font-display);font-size:0.85rem;font-weight:600;color:var(--blue-deep);">Rohit's 87* vs GT — Full Innings</div><div style="font-size:0.72rem;color:var(--gray);margin-top:2px;">2.4M views · Mar 29</div></div>
+      </a>
+      <a href="https://www.iplt20.com/video/226556/jasprit-bumrah-s-personal-best-of-4-14low:hidden;cursor:pointer;border:1px solid var(--gray-light);text-decoration:none;color:inherit;" onmouseover="this.querySelector('.vplay').style.transform='scale(1.15)'" onmouseout="this.querySelector('.vplay').style.transform='scale(1)'">
+        <div style="background:linear-gradient(135deg,#001A40,#E63946);height:110px;display:flex;align-items:center;justify-content:center;position:relative;">
+          <div class="vplay" style="width:44px;height:44px;background:rgba(212,175,55,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:transform 0.25s;">▶</div>
+          <div style="position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,0.6);color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:2px;">2:48</div>
+        </div>
+        <div style="padding:0.75rem;"><div style="font-family:var(--font-display);font-size:0.85rem;font-weight:600;color:var(--blue-deep);">Bumrah's Magical Spell — 4/14</div><div style="font-size:0.72rem;color:var(--gray);margin-top:2px;">1.8M views · Mar 27</div></div>
+      </a>
+      <a href="https://www.iplt20.com/video/226557/sky-s-360-six-hitting-masterclass" target="_blank" rel="noopener noreferrer" style="border-radius:8px;overflow:hidden;cursor:pointer;border:1px solid var(--gray-light);text-decoration:none;color:inherit;" onmouseover="this.querySelector('.vplay').style.transform='scale(1.15)'" onmouseout="this.querySelector('.vplay').style.transform='scale(1)'">
+        <div style="background:linear-gradient(135deg,#0F6E56,#001A40);height:110px;display:flex;align-items:center;justify-content:center;position:relative;">
+          <div class="vplay" style="width:44px;height:44px;background:rgba(212,175,55,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:transform 0.25s;">▶</div>
+          <div style="position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,0.6);color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:2px;">1:55</div>
+        </div>
+        <div style="padding:0.75rem;"><div style="font-family:var(--font-display);font-size:0.85rem;font-weight:600;color:var(--blue-deep);">SKY's 360 Six-Hitting Masterclass</div><div style="font-size:0.72rem;color:var(--gray);margin-top:2px;">980K views · Mar 22</div></div>
+      </a>
+      <a href="https://www.iplt20.com/video/226558/hardiks-48-vs-rr" target="_blank" rel="noopener noreferrer" style="border-radius:8px;overflow:hidden;cursor:pointer;border:1px solid var(--gray-light);text-decoration:none;color:inherit;" onmouseover="this.querySelector('.vplay').style.transform='scale(1.15)'" onmouseout="this.querySelector('.vplay').style.transform='scale(1)'">
+        <div style="background:linear-gradient(135deg,#D4AF37,#001A40);height:110px;display:flex;align-items:center;justify-content:center;position:relative;">
+          <div class="vplay" style="width:44px;height:44px;background:rgba(212,175,55,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:transform 0.25s;">▶</div>
+          <div style="position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,0.6);color:#fff;font-size:0.65rem;padding:2px 6px;border-radius:2px;">3:20</div>
+        </div>
+        <div style="padding:0.75rem;"><div style="font-family:var(--font-display);font-size:0.85rem;font-weight:600;color:var(--blue-deep);">Hardik's All-Round Brilliance vs RR</div><div style="font-size:0.72rem;color:var(--gray);margin-top:2px;">750K views · Mar 16</div></div>
+      </a>
+    </div>
+  </div>
+</section>
+ 
+<!-- ENGAGE -->
+<div id="engage">
+ 
+  <!-- POLL -->
+  <div>
+    <div class="section-label">Fan Voice</div>
+    <h2 class="section-title" style="margin-bottom:2rem;">Fan <em>Poll</em></h2>
+    <div class="poll-card">
+      <div class="poll-title">Who should open the batting alongside Rohit Sharma in IPL 2025?</div>
+      <div class="poll-options" id="pollOptions">
+        <div class="poll-option" onclick="vote(0)">
+          <div class="poll-bar" style="width: 45%"></div>
+          <div class="poll-opt-label">
+            <span>Ishan Kishan</span>
+            <span class="poll-pct" id="pct0">45%</span>
+          </div>
+        </div>
+        <div class="poll-option" onclick="vote(1)">
+          <div class="poll-bar" style="width: 28%"></div>
+          <div class="poll-opt-label">
+            <span>Tilak Varma</span>
+            <span class="poll-pct" id="pct1">28%</span>
+          </div>
+        </div>
+        <div class="poll-option" onclick="vote(2)">
+          <div class="poll-bar" style="width: 18%"></div>
+          <div class="poll-opt-label">
+            <span>Naman Dhir</span>
+            <span class="poll-pct" id="pct2">18%</span>
+          </div>
+        </div>
+        <div class="poll-option" onclick="vote(3)">
+          <div class="poll-bar" style="width: 9%"></div>
+          <div class="poll-opt-label">
+            <span>Suryakumar Yadav</span>
+            <span class="poll-pct" id="pct3">9%</span>
+          </div>
+        </div>
+      </div>
+      <div class="poll-count" id="pollCount">4,812 fans voted</div>
+    </div>
+ 
+    <div style="margin-top:2rem;">
+      <h3 style="font-family:var(--font-display);font-size:1rem;font-weight:600;color:var(--blue-deep);margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.06em;">Quick Stats</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <div style="background:var(--off-white);border-radius:6px;padding:1rem;text-align:center;">
+          <div style="font-family:var(--font-display);font-size:1.8rem;font-weight:700;color:var(--blue);">93K</div>
+          <div style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.08em;">Fan Members</div>
+        </div>
+        <div style="background:var(--off-white);border-radius:6px;padding:1rem;text-align:center;">
+          <div style="font-family:var(--font-display);font-size:1.8rem;font-weight:700;color:var(--blue);">12M+</div>
+          <div style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.08em;">Social Followers</div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- SOCIAL FEED -->
+  <div class="social-feed">
+    <div class="section-label">Social</div>
+    <h2 class="section-title" style="margin-bottom:1rem;">Fan <em>Buzz</em></h2>
+    <div class="social-header">
+      <div></div>
+      <div class="social-tabs">
+        <button class="stab active">Twitter</button>
+      </div>
+    </div>
+    <div class="tweet-card">
+      <div class="tweet-header">
+        <div class="tweet-avatar">MI</div>
+        <div class="tweet-meta">
+          <div class="handle">@MumbaiIndians</div>
+          <div class="time">2h ago</div>
+        </div>
+      </div>
+      <div class="tweet-text">That Bumrah delivery 🎯 Unplayable. Simply unplayable. Watch the full over replay on the MI app. #OneFamily #MumbaiIndians #IPL2025</div>
+      <div class="tweet-actions">
+        <span class="tweet-action">♥ 14.2K</span>
+        <span class="tweet-action">↩ 2.1K</span>
+        <span class="tweet-action">⇧ Share</span>
+      </div>
+    </div>
+    <div class="tweet-card">
+      <div class="tweet-header">
+        <div class="tweet-avatar" style="background:#D4AF37;color:#001A40;">RS</div>
+        <div class="tweet-meta">
+          <div class="handle">@rohitsharma45</div>
+          <div class="time">5h ago</div>
+        </div>
+      </div>
+      <div class="tweet-text">Great team effort tonight! Proud of each and every one of my boys. Now let's go get those two points on Saturday 💪 #MumbaiIndians</div>
+      <div class="tweet-actions">
+        <span class="tweet-action">♥ 89.4K</span>
+        <span class="tweet-action">↩ 9.7K</span>
+        <span class="tweet-action">⇧ Share</span>
+      </div>
+    </div>
+    <div class="tweet-card">
+      <div class="tweet-header">
+        <div class="tweet-avatar" style="background:#E63946;">SK</div>
+        <div class="tweet-meta">
+          <div class="handle">@surya_14kumar</div>
+          <div class="time">8h ago</div>
+        </div>
+      </div>
+      <div class="tweet-text">Wankhede ka crowd ek dum top hai! 🔥 Nothing beats playing in front of this crowd. See you all on Saturday! 🏏 #MumbaiIndians</div>
+      <div class="tweet-actions">
+        <span class="tweet-action">♥ 62.1K</span>
+        <span class="tweet-action">↩ 5.3K</span>
+        <span class="tweet-action">⇧ Share</span>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:1rem;">
+      <a href="https://www.instagram.com/mumbaiindians" target="_blank" rel="noopener noreferrer" style="text-align:center;">Follow @MumbaiIndians</a>
+    </div>
+  </div>
+</div>
+ 
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-label">Moments</div>
+  <h2 class="section-title" style="color:var(--white);">Photo <em style="-webkit-text-stroke-color:var(--white)">Gallery</em></h2>
+  <p class="section-subtitle" style="margin-bottom:0.75rem;">Top 6 Player Highlights</p>
+  <p class="section-subtitle" style="margin-bottom:2rem;">Reliving the greatest moments in Mumbai Indians history.</p>
+ 
+  <div class="gallery-grid">
+    <div class="gallery-item tall gallery-tall" onclick="openModal(0)" style="background: url('https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/414700/414746.jpg') center/cover no-repeat;">
+      <div class="gallery-caption">Rohit Sharma · Captain</div>
+      <div class="gallery-overlay"><div class="gallery-overlay-icon">⊕</div></div>
+    </div>
+    <div class="gallery-item gallery-h" onclick="openModal(1)" style="background: url('https://c.ndtvimg.com/2026-03/556ut0ro_jasprit-bumrah_625x300_09_March_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738') center/cover no-repeat;">
+      <div class="gallery-caption">Jasprit Bumrah · Fast Bowler</div>
+      <div class="gallery-overlay"><div class="gallery-overlay-icon">⊕</div></div>
+    </div>
+    <div class="gallery-item gallery-h wide" onclick="openModal(2)" style="background: url('https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1766217397915_SuryakumarYadav.jpg?type=hq') center/cover no-repeat;">
+      <div class="gallery-caption">Suryakumar Yadav · Vice Captain</div>
+      <div class="gallery-overlay"><div class="gallery-overlay-icon">⊕</div></div>
+    </div>
+    <div class="gallery-item gallery-h" onclick="openModal(3)" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPglyTrghOD84f6PDtVyL_kG3KjH-AmNzkA&s') center/cover no-repeat;">
+      <div class="gallery-caption">Hardik Pandya · All-Rounder</div>
+      <div class="gallery-overlay"><div class="gallery-overlay-icon">⊕</div></div>
+    </div>
+    <div class="gallery-item gallery-h" onclick="openModal(4)" style="background: url('https://www.mumbaiindians.com/static-assets/waf-images/da/57/e3/16-9/1920-1080/1aoWaG0sMS.jpg') center/cover no-repeat;">
+      <div class="gallery-caption">Ishan Kishan · Wicket-Keeper</div>
+      <div class="gallery-overlay"><div class="gallery-overlay-icon">⊕</div></div>
+    </div>
+    <div class="gallery-item gallery-h" onclick="openModal(5)" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO2UJhtywSpLC0GTspt-V86-GXCWhu5vGblQ&s') center/cover no-repeat;">
+      <div class="gallery-caption">Tilak Varma · Batter</div>
+      <div class="gallery-overlay"><div class="gallery-overlay-icon">⊕</div></div>
+    </div>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-badge">MI</div>
+        Mumbai Indians
+      </div>
+      <p class="footer-desc">The most successful franchise in IPL history. Five-time champions. One family. Bringing the spirit of Mumbai to cricket fans around the world.</p>
+      <div class="social-links">
+        <a href="https://twitter.com/mipaltan" class="slink" target="_blank" rel="noopener noreferrer">𝕏</a>
+        <a href="https://www.instagram.com/mumbaiindians/" class="slink" target="_blank" rel="noopener noreferrer">IG</a>
+        <a href="https://www.facebook.com/mumbaiindians/" class="slink" target="_blank" rel="noopener noreferrer">FB</a>
+        <a href="https://www.youtube.com/channel/UCl23mvQ3321L7zO6JyzhVmg" class="slink" target="_blank" rel="noopener noreferrer">YT</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigate</div>
+      <ul class="footer-links">
+        <li><a href="#schedule">Match Schedule</a></li>
+        <li><a href="#players">Player Squad</a></li>
+        <li><a href="#stats">Team Statistics</a></li>
+        <li><a href="#news">Latest News</a></li>
+        <li><a href="#gallery">Photo Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Mumbai Indians Fan Hub. Not officially affiliated with Mumbai Indians / Reliance Industries. Made with ❤️ for MI fans.</p>
+    <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></p>
+  </div>
+</footer>
+ 
+<!-- PLAYER MODAL -->
+<div class="modal-backdrop" id="playerModal" onclick="closeModal(event)">
+  <div class="modal" id="modalInner">
+    <div class="modal-header" id="modalHeader">
+      <div class="modal-avatar" id="modalAvatar"></div>
+      <div class="modal-player-info">
+        <div class="modal-player-name" id="modalName"></div>
+        <div class="modal-player-role" id="modalRole"></div>
+      </div>
+      <div class="modal-player-num" id="modalNum"></div>
+      <button class="modal-close" onclick="closeModalBtn()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-stats-grid" id="modalStats"></div>
+      <div class="modal-bio" id="modalBio"></div>
+    </div>
+  </div>
+</div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
